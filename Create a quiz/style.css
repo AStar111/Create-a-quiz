@@ -1,0 +1,55 @@
+html {
+  background: url("img/il_fullxfull.4079544308_c7w1.jpg") no-repeat fixed center;
+  background-size: cover;
+}
+
+body {
+  background: rgba(255, 255, 255, 0.8);
+  width: 600px;
+  padding: 25px 100px;
+  margin: 25px auto;
+  border-radius: 25px;
+}
+
+h1,
+h2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+select {
+  padding: 5px 10px;
+  font-size: 18px;
+}
+
+.character-img {
+  width: 75px;
+  height: 150px;
+  border: 2px solid grey;
+  margin: 0 5px;
+}
+
+p {
+  font-size: 20px;
+}
+h3 {
+  font-size: 20px;
+}
+
+input {
+  width: 200px;
+  height: 20px;
+  color: rgb(0, 0, 0);
+  font-size: 15px;
+}
+
+#krab {
+  height: 300px;
+  width: 500px;
+}
+button {
+  height: 30px;
+  width: 100px;
+  border-radius: 20px;
+  color: rgb(0, 0, 0);
+  background-color: rgb(142, 247, 255);
+}
