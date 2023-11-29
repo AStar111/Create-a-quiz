@@ -41,16 +41,16 @@ function Clicked() {
   } else {
     larrya.innerHTML = "Incorrect";
   }
-  // Outyput
+  //Score variables
   let score = i / 4;
   let outof4 = i / 100;
-  //Variables
+//Output
   if (score < 50) {
     Outputdl.innerHTML = "Nice try";
   } else {
     Outputdl.innerHTML = "Good job";
   }
-  //Output
+
   OutputEl.innerHTML = `${outof4}/4 or ${score}`;
 
   document.getElementById("result2");
